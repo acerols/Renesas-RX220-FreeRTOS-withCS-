@@ -1,0 +1,94 @@
+Renesas Optimizing Linker (W2.07.00 )             11-Mar-2018 02:21:24
+
+*** Options ***
+
+-subcommand=DefaultBuild\frtos.clnk
+-library=DefaultBuild\frtos.lib
+-input=DefaultBuild\main.obj
+-input=DefaultBuild\dbsct.obj
+-input=DefaultBuild\hwsetup.obj
+-input=DefaultBuild\intprg.obj
+-input=DefaultBuild\resetprg.obj
+-input=DefaultBuild\sbrk.obj
+-input=DefaultBuild\vecttbl.obj
+-input=DefaultBuild\port.obj
+-input=DefaultBuild\port_asm.obj
+-input=DefaultBuild\queue.obj
+-input=DefaultBuild\tasks.obj
+-input=DefaultBuild\timers.obj
+-input=DefaultBuild\croutine.obj
+-input=DefaultBuild\event_groups.obj
+-input=DefaultBuild\list.obj
+-input=DefaultBuild\heap_2.obj
+-noprelink
+-output=DefaultBuild\frtos.abs
+-list=DefaultBuild\frtos.map
+-nooptimize
+-start=B_1,R_1,B_2,R_2,B,R,SU,SI/04,PResetPRG/0FFFC0000,C_1,C_2,C,C$DSEC,C$BSEC,C$INIT,C$VTBL,C$VECT,D_1,D_2,D,P,PIntPRG,W_1,W_2,W,L/0FFFC0100,FIXEDVECT/0FFFFFFD0
+-rom=D=R,D_1=R_1,D_2=R_2
+-nologo
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+B_1
+                                  00000004  00000403       400   1
+R_1
+                                  00000404  00000454        51   1
+B_2
+                                  00000455  00000455         0   1
+R_2
+                                  00000455  00000455         0   1
+B
+                                  00000458  00000993       53c   4
+R
+                                  00000994  00000c33       2a0   4
+SU
+                                  00000c34  00000d33       100   4
+SI
+                                  00000d34  00001033       300   4
+PResetPRG
+                                  fffc0000  fffc0029        2a   1
+C_1
+                                  fffc0100  fffc01d1        d2   1
+C_2
+                                  fffc01d2  fffc03d3       202   2
+C
+                                  fffc03d4  fffc043b        68   4
+C$DSEC
+                                  fffc043c  fffc045f        24   4
+C$BSEC
+                                  fffc0460  fffc0477        18   4
+C$INIT
+                                  fffc0478  fffc0478         0   1
+C$VTBL
+                                  fffc0478  fffc0478         0   1
+C$VECT
+                                  fffc0478  fffc0877       400   4
+D_1
+                                  fffc0878  fffc08c8        51   1
+D_2
+                                  fffc08c9  fffc08c9         0   1
+D
+                                  fffc08cc  fffc0b6b       2a0   4
+P
+                                  fffc0b6c  fffc5a8c      4f21   1
+PIntPRG
+                                  fffc5a8d  fffc5b77        eb   1
+W_1
+                                  fffc5b78  fffc5b78         0   1
+W_2
+                                  fffc5b78  fffc5b78         0   1
+W
+                                  fffc5b78  fffc5b78         0   1
+L
+                                  fffc5b78  fffc5bfc        85   4
+$ADDR_C_FFFFFF80
+                                  ffffff80  ffffff83         4   1
+$ADDR_C_FFFFFFA0
+                                  ffffffa0  ffffffaf        10   1
+FIXEDVECT
+                                  ffffffd0  ffffffff        30   4

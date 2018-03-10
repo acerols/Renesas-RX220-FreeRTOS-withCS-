@@ -1,0 +1,53 @@
+<CubeSuiteProject.User>
+  <Class Guid="e4df8d71-236e-4af2-aaea-56345a08da25">
+    <Instance Guid="9e76d4e8-0b8f-4e7c-91b7-a4c442bcf2e7">
+      <DeviceChangedCounter>0</DeviceChangedCounter>
+      <DeviceName>R5F52206BxFM</DeviceName>
+    </Instance>
+  </Class>
+  <Class Guid="2c267d36-9968-416b-8f39-cfcf1e069830">
+    <Instance Guid="705a6012-3a18-4d01-903f-6c55417f8f3d">
+      <ColumnStates>Header=True,LineEditor=True,SelectionEditor=True,Out of Date Module Indicator=True,Coverage=True,Address=True,Event=True,MainDebug=True,Main=True,OpCode=True,Label=True,</ColumnStates>
+    </Instance>
+    <Instance Guid="9a2aa537-6164-42cd-80e4-e708b32cd890">
+      <Bookmarks>0</Bookmarks>
+    </Instance>
+  </Class>
+  <Class Guid="34506c0a-c7d1-4c09-aee7-5072eca3d198">
+    <Instance Guid="00000000-0000-0000-0000-000000000000">
+      <LastSavedNetAdvantageVersion>12.2.20122.2006</LastSavedNetAdvantageVersion>
+    </Instance>
+  </Class>
+  <Class Guid="def4131d-299f-4229-94f7-b6796e3a759d">
+    <Instance Guid="00000000-0000-0000-0000-000000000000">
+      <LastNetAdvantageVersion>12.2.20122.2006</LastNetAdvantageVersion>
+      <LastUserVersion>8.00.00.05</LastUserVersion>
+    </Instance>
+  </Class>
+  <Class Guid="11fad805-4123-496e-99f7-1af9aead0aab">
+    <Instance Guid="00000000-0000-0000-0000-000000000000">
+      <LastNetAdvantageVersion>12.2.20122.2006</LastNetAdvantageVersion>
+      <LastUserVersion>8.00.00.05</LastUserVersion>
+    </Instance>
+  </Class>
+  <Class Guid="611ccd33-b851-4726-9e3f-a4209353c34d">
+    <Instance Guid="00000000-0000-0000-0000-000000000000">
+      <PanelCount>0</PanelCount>
+    </Instance>
+  </Class>
+  <Class Guid="a86d2744-4eb1-43a4-bbcb-1f717558eac6">
+    <Instance Guid="a86d2744-4eb1-43a4-bbcb-1f717558eac6">
+      <ExtendedItems>89078f99-6774-408e-8611-c08d6b9efde7
+92d23bcd-db31-48dd-9719-1a05104f4088
+</ExtendedItems>
+      <TopItem>89078f99-6774-408e-8611-c08d6b9efde7</TopItem>
+      <ViewMode>2</ViewMode>
+      <ViewModeToggle>False</ViewModeToggle>
+    </Instance>
+  </Class>
+  <Class Guid="84287b3e-7c41-456a-95e9-c7acc8f124ab">
+    <Instance Guid="29749929-2569-4c1f-a670-baeab3a375e8">
+      <DefaultOpenFileIndex>2</DefaultOpenFileIndex>
+    </Instance>
+  </Class>
+</CubeSuiteProject.User>
